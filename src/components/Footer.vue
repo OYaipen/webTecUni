@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Tecnología Universal 2019</span>
+          <span class="copyright">Copyright &copy; Owen Yaipen 2019</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
