@@ -1,5 +1,5 @@
 <template>
-  <div class>
+  <div>
     <section class="bg-light page-section mt-5">
       <div class="container">
         <div class="row">
@@ -34,12 +34,17 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="page-section">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-lg-1">
             <div class="p-5">
-              <h2 class="display-4">Departamento Eléctrico</h2>
+              <img class="img-fluid rounded-circle" src="@/assets/img/about/1.jpg" alt />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2">
+            <div>
+              <h2 class="section-heading text-uppercase">Departamento Eléctrico</h2>
               <p>Montaje de tuberías conduit y bandejas cortacables para transportes de conductores eléctricos.</p>
               <p>Diseño, fabricación, montaje y cableado de tableros eléctricos de control y de fuerza industrial.</p>
               <p>Instalaciones y mantenimiento de conexiones eléctricas en media y baja tensión.</p>
@@ -51,11 +56,6 @@
               <p>Instalación y mantenimiento de sistemas de iluminación interior y exterior en general incluso lámparas de emergencia.</p>
               <p>Mantenimiento de equipos de aire acondicionado tipo ventana, Split y tipo paquete ductos.</p>
               <p>Instalación del Control del factor de potencia para reducir el consumo de energía.</p>
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="@/assets/img/about/1.jpg" alt />
             </div>
           </div>
         </div>
@@ -70,8 +70,10 @@
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <h2 class="display-4">Departamento de Automatización e Instrumentación</h2>
+            <div>
+              <h2
+                class="section-heading text-uppercase"
+              >Departamento de Automatización e Instrumentación</h2>
               <p>Estudios, diseño e instalación de Sistemas Automatizados de control de Procesos e instrumentación de campo.</p>
               <p>Instalación, configuración, calibración y mantenimiento de Instrumentos de control como, Controladores de proceso, Transmisores de Presión, caudal, nivel, temperatura, válvulas de control automático, válvulas reguladoras de presión de fluidos en general.</p>
               <p>Instalación, Mantenimiento, configuración y calibración de arrancadores de estado Solido y variadores de frecuencia DC/AC.</p>
@@ -93,8 +95,8 @@
             </div>
           </div>
           <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <h2 class="display-4">Departamento de Vapor y Electrimecánicos</h2>
+            <div>
+              <h2 class="section-heading text-uppercase">Departamento de Vapor y Electrimecánicos</h2>
               <p>Mantenimiento de Calderos Piró tubulares y Acuatubulares.</p>
               <p>Mantenimiento de redes de vapor.</p>
             </div>
